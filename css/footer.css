@@ -1,0 +1,101 @@
+.footer {
+  background-color: #2F324B;
+  padding: 45px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo-block {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 0.545em;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__logo {
+  margin-right: 19px;
+}
+
+.footer__logo-copyright {
+  width: 127px;
+}
+
+.footer__text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 0.545em;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 580px) {
+  .footer__text {
+    display: none;
+  }
+}
+
+.footer__call {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.084em;
+  line-height: 28px;
+}
+
+.footer__button-small {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .footer__call {
+    font-size: 0.955em;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer__call {
+    display: none;
+  }
+}
+
+.footer__button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 0.727em;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  width: 145px;
+}
+
+@media (max-width: 1024px) {
+  .footer__button {
+    font-size: 0.591em;
+    line-height: 15px;
+    width: 108px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer__button {
+    display: none;
+  }
+  .footer__button-small {
+    display: inline;
+  }
+}
