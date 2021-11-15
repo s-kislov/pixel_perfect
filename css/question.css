@@ -32,11 +32,11 @@
 
 .question__title {
   font-family: Roboto;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.591em;
   line-height: 41px;
   color: #FFFFFF;
-  margin-bottom: 17px;
+  margin-bottom: 21px;
 }
 
 @media (max-width: 1024px) {
@@ -92,10 +92,11 @@
   border: 1.38235px solid #FFFFFF;
   border-radius: 50px;
   background-color: transparent;
-  padding-top: 11px;
-  padding-right: 296px;
-  padding-bottom: 11px;
+  padding-top: 9px;
+  padding-right: 170px;
+  padding-bottom: 7px;
   padding-left: 25px;
+  margin-bottom: 4px;
 
 }
 
@@ -122,7 +123,7 @@
 }
 
 .question__form-email {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .question__form-button {
@@ -131,14 +132,13 @@
   border-radius: 50px;
   border: none;
   width: 218px;
-  padding: 11px 38px;
+  padding: 11px 48px;
   font-family: Roboto;
-  font-weight: 400;
-  font-size: 0.909em;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 23px;
   color: #FFFFFF;
-  text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 53px;
 }
 
 .form__agree {

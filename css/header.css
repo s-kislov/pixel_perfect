@@ -4,8 +4,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 30px 0;
-  
+  padding-top: 30px;
 }
 
 .header__call {
@@ -16,7 +15,8 @@
   font-family: Roboto;
   font-weight: 500;
   font-size: 1.084em;
-  line-height: 28px;
+  line-height: 27.95px;
+  
 }
 
 @media (max-width: 1024px) {
@@ -27,17 +27,19 @@
 }
 
 .header__button {
+  display: flex;
   background: transparent;
   border: none;
   color: #fff;
   font-family: Roboto;
   font-weight: 500;
-  font-size: 0.727em;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 18.75px;
   text-align: center;
   cursor: pointer;
   border-bottom: 1px solid #fff;
-  width: 145px;
+  width: 132px;
+  padding-top: 5px;
 }
 
 .header__button-small {
